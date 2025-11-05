@@ -10,7 +10,7 @@ import io  # Added for BytesIO stream handling
 
 # ----------------- CONFIG -----------------
 # OPENROUTER_API_KEY = os.environ.get("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")
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "Api_key"
 
   # Changed to proper env var name
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
@@ -211,3 +211,4 @@ if st.button("Generate Answer"):
 
 st.markdown("---")
 st.write("check api and ocr for pdfs")
+
