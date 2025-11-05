@@ -2,7 +2,7 @@
 import streamlit as st
 import requests
 
-API_KEY = "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"
+API_KEY = "API_KEY"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 rtyui
 st.title("Goal-Oriented Research Agent (Phase 1)")
@@ -39,3 +39,4 @@ if st.button("Generate Answer"):
                 st.error(f"Error: {data}")
         except Exception as e:
             st.error(f"Request failed: {e}")
+
